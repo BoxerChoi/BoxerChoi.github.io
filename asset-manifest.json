@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Coffee-Break/static/css/main.87dc2f05.css",
-    "main.js": "/Coffee-Break/static/js/main.6c3bd213.js",
+    "main.css": "/Coffee-Break/static/css/main.03d7081f.css",
+    "main.js": "/Coffee-Break/static/js/main.af20561c.js",
     "static/js/453.e6d4491e.chunk.js": "/Coffee-Break/static/js/453.e6d4491e.chunk.js",
     "index.html": "/Coffee-Break/index.html",
-    "main.87dc2f05.css.map": "/Coffee-Break/static/css/main.87dc2f05.css.map",
-    "main.6c3bd213.js.map": "/Coffee-Break/static/js/main.6c3bd213.js.map",
+    "main.03d7081f.css.map": "/Coffee-Break/static/css/main.03d7081f.css.map",
+    "main.af20561c.js.map": "/Coffee-Break/static/js/main.af20561c.js.map",
     "453.e6d4491e.chunk.js.map": "/Coffee-Break/static/js/453.e6d4491e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.87dc2f05.css",
-    "static/js/main.6c3bd213.js"
+    "static/css/main.03d7081f.css",
+    "static/js/main.af20561c.js"
   ]
 }
