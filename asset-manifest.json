@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Coffee-Break/static/css/main.9a96e539.css",
-    "main.js": "/Coffee-Break/static/js/main.fb86ee5d.js",
+    "main.js": "/Coffee-Break/static/js/main.b5e551b5.js",
     "static/js/453.e6d4491e.chunk.js": "/Coffee-Break/static/js/453.e6d4491e.chunk.js",
     "static/media/coffee.png": "/Coffee-Break/static/media/coffee.68d1dc82ce414bfb574e.png",
     "index.html": "/Coffee-Break/index.html",
     "main.9a96e539.css.map": "/Coffee-Break/static/css/main.9a96e539.css.map",
-    "main.fb86ee5d.js.map": "/Coffee-Break/static/js/main.fb86ee5d.js.map",
+    "main.b5e551b5.js.map": "/Coffee-Break/static/js/main.b5e551b5.js.map",
     "453.e6d4491e.chunk.js.map": "/Coffee-Break/static/js/453.e6d4491e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a96e539.css",
-    "static/js/main.fb86ee5d.js"
+    "static/js/main.b5e551b5.js"
   ]
 }
