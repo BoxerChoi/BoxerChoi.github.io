@@ -2,9 +2,26 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
+    width: 70%; /* 전체 너비를 사용하여 중앙에 배치 */
+    // max-width: 1200px; /* 최대 너비를 설정하여 넓은 화면에서도 중앙에 배치 */
 }
 
 .main-content {
+    // display: flex;
+    // flex: 1;
+
     display: flex;
-    flex: 1;
+    margin: 10px auto;
+    // max-width: 500px;
+    flex-grow: 1;
+}
+
+.separator {
+    border-bottom: 2px solid #362e2e; /* 윤곽선의 두께와 색상을 지정 */
+    margin: 0 10px; /* 양쪽에 마진을 추가하여 윤곽선을 중앙에 배치 */
+}
+
+.separator-vertical {
+    width: 2px; /* 윤곽선의 너비 */
+    background-color: #362e2e; /* 윤곽선의 색상 */
 }

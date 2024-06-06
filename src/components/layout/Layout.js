@@ -6,7 +6,7 @@ import Left from './Left';
 import TodoApp from '../../app/TodoApp';
 import NewsApp from '../../app/NewsApp';
 
-import '../../css/Layout/Layout.scss';
+import '../../css/layout/Layout.scss';
 
 const Layout = () => {
   const [selectedMenu, setSelectedMenu] = useState('home');
@@ -27,8 +27,10 @@ const Layout = () => {
   return (
     <div className="layout">
       <Header />
+      <div className="separator"></div>
       <div className="main-content">
         <div className="body">{content}</div>
+        <div className="separator-vertical"></div>
         <Left setSelectedMenu={setSelectedMenu} />
       </div>
     </div>

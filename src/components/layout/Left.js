@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../css/Layout/Left.scss';
+import '../../css/layout/Left.scss';
 
 const Left = ({ setSelectedMenu }) => {
   return (

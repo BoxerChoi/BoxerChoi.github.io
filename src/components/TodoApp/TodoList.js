@@ -1,6 +1,6 @@
 import React from 'react';
 import TodoListItem from './TodoListItem';
-import '../../css/TodoApp/TodoList.scss';
+import '../../css/todoApp/TodoList.scss';
 
 //todos 배열을 props로 받아온 후, 이를 배열 내장 함수 map을 사용해 여러개의 TodoListItem 컴포넌트로 변환하여 출력
 const TodoList = ({ todos, onRemove, onToggle }) => {
