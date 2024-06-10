@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import Header from './Header';
-// import Body from './Body';
 import Left from './Left';
-
 import TodoApp from '../../app/TodoApp';
 import NewsApp from '../../app/NewsApp';
 

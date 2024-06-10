@@ -6,12 +6,21 @@ const Left = ({ setSelectedMenu }) => {
     <aside className="left">
       <nav>
         <ul>
-          <li>
-            <button onClick={() => setSelectedMenu('NewsApp')}>News</button>
+          <li className="leftLi">
+            <button
+              className="leftButton"
+              onClick={() => setSelectedMenu('NewsApp')}
+            >
+              News
+            </button>
           </li>
-          <li>
-            <button onClick={() => setSelectedMenu('TodoApp')}>
-              To-do List
+
+          <li className="leftLi">
+            <button
+              className="leftButton"
+              onClick={() => setSelectedMenu('TodoApp')}
+            >
+              To-do
             </button>
           </li>
         </ul>

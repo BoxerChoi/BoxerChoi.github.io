@@ -1,0 +1,36 @@
+.CategoriesBlock
+{
+    display : flex;
+    padding: 1rem;
+    width: 760px;
+    margin : 0 auto;
+    @media screen and (max-width : 760px) {
+        width : 100%;
+        overflow: auto;
+    }
+}
+.Category
+{
+    font-size: 1.125rem;
+    cursor : pointer;
+    white-space: pre;
+    text-decoration : none;
+    color : white;
+    padding-bottom: 0.25rem;
+    &:hover{
+        color : #e0cd75;
+    }
+    
+    &+&{
+        margin-left: 1rem;
+    }
+}
+
+.Category.active {
+    font-weight : 600;
+    border-bottom: 2px solid #ebcd4b;
+    color : #ebcd4b;
+    &:hover {
+        color : #ebcd4b;
+    }
+  }
