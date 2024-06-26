@@ -13,7 +13,7 @@ const NewsList = ({ category }) => {
       try {
         const query = category === '' ? 'general' : `&category=${category}`;
         const response = await axios.get(
-          `https://gnews.io/api/v4/top-headlines?lang=en&country=us${query}&apikey=`,
+          `https://gnews.io/api/v4/top-headlines?lang=en&country=us${query}&apikey=afe9d93ce6bb82c581557b433f3af34a`,
         );
         setArticles(response.data.articles);
       } catch (e) {
@@ -30,7 +30,11 @@ const NewsList = ({ category }) => {
   }
 
   if (!articles) {
-    return null;
+    return (
+      <div className="NewsListBlock">
+        This host server has reached API request limit for today :(
+      </div>
+    );
   }
 
   return (

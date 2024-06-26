@@ -4,7 +4,7 @@ import '../../css/newsApp/NewsItem.scss';
 const NewsItem = ({ article }) => {
   const { title, description, url, image } = article;
   return (
-    <div className="NewsItemBlock" key={article.url}>
+    <div className="NewsItemBlock">
       {image && (
         <div className="thumbnail">
           <a href={url} target="_blank" rel="noopener noreferrer">
