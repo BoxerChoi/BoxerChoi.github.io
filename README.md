@@ -2,7 +2,8 @@
 
 ## 1. About Coffee-Break
 
-This React based program provides to-do list and world news you can enjoy while you have coffee break!!!
+This React based program provides to-do list and world news you can enjoy while you have coffee break!!!  
+Simply click here to visit! >> https://boxerchoi.github.io/Coffee-Break/
 
 ## 2. Development environment
 
